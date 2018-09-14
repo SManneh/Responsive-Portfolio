@@ -1,0 +1,138 @@
+
+.header {
+  text-align: left;
+  background: url("../images/headerbground.jpg");
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  padding: 15px;
+  width: 98%;
+  position: relative;
+  border-radius: 5%;
+font-size: larger;
+}
+
+.menu {
+  float: right;
+  top:58px;
+  right:16px;
+  position: absolute;
+  color:white;
+
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+
+
+#profilepic {
+  width: 300px;
+  border-radius: 50%;
+
+}
+
+
+  h2{
+    text-align: left;
+    background: white;
+    color: olive;
+    padding: 10px;
+  }
+
+  body {
+    font-size: 18px;
+    line-height: 1;
+    color: white;
+  
+  }
+
+  p {
+    font-size:18px;
+    line-height: 1;
+    color: white;
+  }
+
+  .para {
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    width: 58%;
+
+
+  }
+
+  .context {
+      background: url("http://farm6.static.flickr.com/5139/5388567716_b5f2233042.jpg");
+      float: left;
+      margin-left: 13%;
+      margin-right: 20%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      padding: 70px;
+      vertical-align: center;
+      border-style: double;
+      position: relative;
+      width: 60%;
+      border-color: olive;
+      border-radius: 50px;
+
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  
+}
+
+input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: orange;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+
+#pic1 {
+  width: 240px;
+
+}
+
+#pic2 {
+  width: 240px;
+}
+
+#pic3 {
+  width: 240px;
+}
+
+#pic4 {
+  width: 240px;
+}
+
+#pic5 {
+  width: 240px;
+}
+
+#pic6 {
+  width: 240px;
+}
