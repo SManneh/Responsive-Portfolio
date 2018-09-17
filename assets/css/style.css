@@ -136,3 +136,42 @@ input[type=submit]:hover {
 #pic6 {
   width: 240px;
 }
+
+@media screen and (max-width: 640px){
+
+.menu {
+  top: 96px;
+  bottom: 202px;
+  box-align: center;
+  width: 100%;
+  right: 0;
+
+}
+
+.header{
+  text-align: center;
+}
+
+.context {
+  margin-left: 10%;
+  position: unset;
+
+}
+#profilepic {
+  width: 100%;
+}
+
+.para {
+  width: 100%;
+  position: unset;
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6 {
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 768){
+  
+}
