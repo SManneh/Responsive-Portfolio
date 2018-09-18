@@ -137,6 +137,59 @@ input[type=submit]:hover {
   width: 240px;
 }
 
+
+
+@media screen and (max-width: 980px){
+
+  #profilepic {
+    margin-left: -72px;
+  
+  }
+
+  .context {
+    padding: 76px;
+  }
+
+  #pic1, #pic2, #pic3, #pic4, #pic5, #pic6 {
+    width: 49%;
+  }
+
+  .header {
+    width: 97%;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  
+  .header {
+    width: 97%;
+  }
+
+  #profilepic {
+    margin-left: -71px;
+    top: 0%;
+    width:52%;
+  }
+
+  .context {
+    padding: 88px;
+    width: 64%;
+    margin-left: 6%;
+
+  }
+  .para {
+    top: 0%;
+    right: 1%;
+
+  }
+  #pic1, #pic2, #pic3, #pic4, #pic5, #pic6 {
+    width: 49%;
+  }
+
+}
+
+
 @media screen and (max-width: 640px){
 
 .menu {
@@ -153,12 +206,17 @@ input[type=submit]:hover {
 }
 
 .context {
-  margin-left: 10%;
+  margin-left: 8%;
   position: unset;
+  width: 60%;
+  padding: 70px;
+
 
 }
 #profilepic {
   width: 100%;
+  margin-left: 0px;
+
 }
 
 .para {
@@ -170,8 +228,4 @@ input[type=submit]:hover {
   width: 100%;
 }
 
-}
-
-@media screen and (max-width: 768){
-  
 }
